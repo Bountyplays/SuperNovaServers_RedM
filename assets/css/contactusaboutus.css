@@ -2,7 +2,7 @@
 :root {
     --bg-color: #191919;
     --bg-brighter: #222222;
-    --text-color: rgb(61, 61, 61);
+    --text-color: rgb(100, 100, 100);
     --icon-color: gray;
 }
 
@@ -31,6 +31,7 @@ html {
     transform: translate(-50%, -50%);
     position: absolute;
     width: 65vw;
+    height: 40vw;
 }
 
 #links i {
