@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.nav-c{
+    position: relative;
+    top: 1.1px;
+    left: 460px;
+  }
+  .navbar-brand{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
 body {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
@@ -10,7 +19,6 @@ body {
     overflow-x: hidden;
     background-color: rgb(36, 36, 36);
 }
-
 h1 {
     font-family: Poppins;
 }
