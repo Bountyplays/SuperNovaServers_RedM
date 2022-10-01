@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Your server name -->
+    <title>SuperNovaRoleplay | RedM Server</title>
+    <!-- Your server icon -->
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <!-- CSS don't touch -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- JS don't touch -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/assets/js/fivemGetPlayers.js"></script>
+</head>
+
+<script>
+    $(function() {
+        GetFiveMPlayers('lb65dv', document.querySelector('#player-element')); // replace CFXID by your server cfx ID exemple (cfx.re/join/CFXID)
+    });
+</script>
+
+<body>
+    <div class="container">
+        <img src="/assets/img/logo.png" class="rounded mx-auto d-block mt-5" alt="your logo">
+        <h1 class="text-white text-center mt-4">SuperNovaRoleplay | RedM Server</h1>
+        <p class="font-italic text-white text-center">SuperNovaNetwork's RedM Server Is Currently Under Development.</p>
+        <p class="font-italic text-white text-center">For Updates Please Join Our Community Discord Server Down Below.</p>
+        <p class="font-italic text-white text-center">Thanks For Visiting!</p>
+    </div>
+    <div class="col-md-12 text-center mt-4">
+        <a href=""><button type="button" class="btn btn-primary"><span id="player-element">0</span> player(s) online</button></a>
+        <a href="https://discord.gg/skpFXhMPGQ"><button type="button" class="btn btn-primary">Discord</button></a>
+
+    </div>
+    <p>This Text Is To Space This Out</p>
+<p></p>
+    <p class="font-italic text-white text-center">NOTE: If The Player Count Is  Higher Then 1 That Means A Beta Tester Or Developer Is Online In The Server.</p>
+</body>
+
+</html>
